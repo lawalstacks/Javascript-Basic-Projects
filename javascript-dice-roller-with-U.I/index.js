@@ -1,4 +1,3 @@
-cc
 //Dice Roller
 
 function rolldice(){
