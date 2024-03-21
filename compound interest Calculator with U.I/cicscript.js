@@ -1,3 +1,4 @@
+//function to calculate
 function calculate(){
     const amountinput = document.getElementById("amount");
     const rateinput = document.getElementById("rate");
