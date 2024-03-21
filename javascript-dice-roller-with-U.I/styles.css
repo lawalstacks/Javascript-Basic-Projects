@@ -1,0 +1,49 @@
+body {
+  background-color: white;
+  font-family: poppins;
+  
+}
+#dice{
+  background-color: yellow;
+  max-width: 80%;
+  margin: auto;
+  text-align: center;
+  border-radius: 15px;
+  border-width: 10px;
+  font-weight: bold;
+  border-width: 5px;
+  border-color: black;
+}
+  h1{
+  font-family: Verdana;
+  color: black;
+}
+#diceno{
+  width:50%;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 1.5em;
+  text-align: center;
+  border-width: 2;
+  border-color: black;
+}
+button{
+  font-size: 1.2em;
+  color: white;
+  background-color: blue;
+  border-radius: 5px;
+  border-width: 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: darkblue;
+}
+#diceresult{
+  margin: 5px;
+}
+#diceimg img{
+  width: 50px;
+  margin: 5px;
+}
