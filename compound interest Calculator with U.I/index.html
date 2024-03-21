@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">    <title>Compound Interest Calculator</title>
+</head>
+<body>
+    
+    <h1> Interest Calculator</h1>
+
+    <form id="interestform">
+        <label for="amount">Prinicipal Amount</label>
+        <input type="number" id="amount" min="1">
+
+        <label for="rate">Interest Rate</label>
+        <input type="number" id="rate" min="1">
+
+        <label for="time">Years</label>
+        <input type="number" id="time" min="1">
+
+        <button type="button" onclick="calculate()">calculate</button>
+        <p id="result">Total: <span id = "total">$0.00</span></p>
+    </form>
+
+    <script src="cicscript.js"></script>
+</body>
+</html>
