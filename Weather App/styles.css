@@ -78,7 +78,9 @@ p{
 
 .weatherEmoji{
     margin: 0;
-    font-size: 7.5rem;
+    padding-top: 5px;
+    width: 150px;
+    height:150px;
 }
 
 .errorDisplay{
