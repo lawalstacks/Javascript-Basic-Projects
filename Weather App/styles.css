@@ -37,7 +37,7 @@ button [type = "submit"]:hover{
 }
 
 .weatherCard{
-    background: linear-gradient(180deg,hsl(202, 83%, 56%),rgb(218, 228, 76));
+    background: linear-gradient(30deg,hsl(202, 83%, 56%),rgb(218, 228, 76));
     padding: 50px;
     box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.5);
     border-radius: 15px;
